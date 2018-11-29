@@ -1,6 +1,11 @@
 # django-mysql-geventpool
 
-[![CircleCI](https://circleci.com/gh/shunsukeaihara/django-mysql-geventpool/tree/master.svg?style=svg)](https://circleci.com/gh/shunsukeaihara/django-mysql-geventpool/tree/master)
+> This is a highly experimental set of patches over
+> https://github.com/shunsukeaihara/django-mysql-geventpool
+> to get it working on Python 2.7 and evaluating whether it can be used in
+> production.
+
+- - -
 
 Mysql Connection Pooling backend for Django 2.0+ using gevent, only supports Python 3.4 or newer.
 It works with gunicorn async worker via gevent.
